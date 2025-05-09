@@ -74,8 +74,6 @@ public class CalculadoradeJuros {
             Tempo = (Juros * 100) / (Capital * Taxa);
             System.out.println(Juros + " * 100 / (" + Capital + " * " + Taxa + ") = " + Tempo);
         }
-
-        // Fechamento do Scanner
         entrada.close();
     }
     
